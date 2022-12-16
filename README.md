@@ -49,6 +49,11 @@ Fixed you .env file for database
   DB_PASSWORD=your_db_password
 ```
 
+Generate App Key (If you dont have key)
+```bash
+  php artisan key:generate
+```
+
 Running Migration and Seeder
 
 ```bash
